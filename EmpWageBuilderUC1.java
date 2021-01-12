@@ -1,5 +1,6 @@
 public class EmpWageBuilderUC1{
-   public static int IS_FULL_TIME = 1;
+   //Constant
+   public static final int IS_FULL_TIME = 1;
    public static void CheckingAttendance(){   
       double empCheck = Math.floor(Math.random()*10)%2;
       if (empCheck == IS_FULL_TIME)
