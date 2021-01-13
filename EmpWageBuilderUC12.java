@@ -10,8 +10,6 @@ interface ICompanyEmpWage{
 
 }
 
-
-
 class CompanyEmpWage{
    public final String company;
    public final int empRatePerHour ;
