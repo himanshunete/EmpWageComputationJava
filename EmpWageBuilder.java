@@ -6,11 +6,7 @@ import java.util.Map;
 interface ICompanyEmpWage{
    public void addCompanyWage( String company, int  empRatePerHour , int numOfWorkingDays, int  maxNumOfHours );
    public void computeEmpWage();
-   
-
 }
-
-
 
 class CompanyEmpWage{
    public final String company;
@@ -45,8 +41,6 @@ public class EmpWageBuilder implements ICompanyEmpWage{
    private int numOfCompany = 0;
    private  ArrayList<CompanyEmpWage> companyEmpWageList;  
    private  Map<String,CompanyEmpWage> companyToEmpWageMap; 
-
-
 
    public EmpWageBuilder(){
       companyEmpWageList = new  ArrayList<>() ; 
